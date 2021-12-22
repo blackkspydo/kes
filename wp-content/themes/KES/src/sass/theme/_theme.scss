@@ -1,0 +1,151 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+$primary: #a52c00;
+
+// fonts
+@font-face {
+  font-family: "caslon-bold";
+  src: url("#{$fa-font-path}/ACaslonPro-Bold.woff2") format("woff2"),
+    url("#{$fa-font-path}/ACaslonPro-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "caslon-regular";
+  src: url("#{$fa-font-path}/ACaslonPro-Regular.woff2") format("woff2"),
+    url("#{$fa-font-path}/ACaslonPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "caslon-semibold";
+  src: url("#{$fa-font-path}/ACaslonPro-Semibold.woff2") format("woff2"),
+    url("#{$fa-font-path}/ACaslonPro-Semibold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "apercu-regular";
+  src: url("#{$fa-font-path}/apercu_regular_pro.woff2") format("woff2"),
+    url("#{$fa-font-path}/apercu_regular_pro.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "apercu-mono";
+  src: url("#{$fa-font-path}/apercu_mono_pro.woff2") format("woff2"),
+    url("#{$fa-font-path}/apercu_mono_pro.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "apercu-bold";
+  src: url("#{$fa-font-path}/apercu_bold_pro.woff2") format("woff2"),
+    url("#{$fa-font-path}/apercu_bold_pro.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "apercu-bolditalic";
+  src: url("#{$fa-font-path}/apercu_bold_italic_pro.woff2") format("woff2"),
+    url("#{$fa-font-path}/apercu_bold_italic_pro.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "apercu-mediumitalic";
+  src: url("#{$fa-font-path}/apercu_medium_italic_pro.woff2") format("woff2"),
+    url("#{$fa-font-path}/apercu_medium_italic_pro.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "apercu-medium";
+  src: url("#{$fa-font-path}/apercu_medium_pro.woff2") format("woff2"),
+    url("#{$fa-font-path}/apercu_medium_pro.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "apercu-regularitalic";
+  src: url("#{$fa-font-path}/apercu_regular_italic_pro.woff2") format("woff2"),
+    url("#{$fa-font-path}/apercu_regular_italic_pro.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  background-color: $primary;
+  nav {
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    .nav-container {
+      display: flex;
+      gap: 3em;
+      ul.navbar {
+        gap: 1em;
+        padding: 0;
+        margin: 0 auto;
+        .nav-item {
+          list-style: none;
+          a {
+            font-family: apercu-bold;
+            color: #ffffff;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+}
+
+.hero {
+  position: relative;
+  #photosphere {
+    margin: 0;
+    width: 100%;
+    height: 38em;
+    position: absolute;
+
+    pointer-events: auto!important;
+    .psv-navbar {
+      justify-content: end;
+      background: none;
+    }
+  }
+
+  .overlay-photosphere {
+    background: linear-gradient(
+      90.09deg,
+      rgba(0, 33, 71, 0.53) 24.92%,
+      rgba(196, 196, 196, 0) 99.26%
+    );
+    pointer-events: none;
+    height: 38em;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    .divider{
+        margin-bottom: 2.5em;
+    }
+    .h1{
+        font-family: caslon-regular;
+        font-size: 3.6em;
+        color: #ffffff;
+        margin:  0 0 0 1em ;
+        padding: 0;
+    }
+    .h1-bold{
+        font-family: caslon-bold;
+        font-size: 4em;
+    }
+  }
+}
+
