@@ -27,7 +27,7 @@ if ($loop->have_posts()) :
                                                                                                             }
                                                                                                             ?></div>
                 </div>
-                <p class="testimonial-text"><?php the_field('excerpt') ?></p>
+                <p class="testimonial-text">" <?php the_field('excerpt') ?> "</p>
             </div>
 <?php
         endwhile;
@@ -36,5 +36,4 @@ if ($loop->have_posts()) :
     </div>
     
 
-</div>
 <?php endif; ?>

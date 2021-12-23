@@ -73,8 +73,9 @@ function enqueue_three() {
 	wp_enqueue_script( 'browser', 'https://cdn.jsdelivr.net/npm/uevent@2.0.0/browser.js');
 	wp_enqueue_script( 'photo-sphere-viewer', 'https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.js');
 	wp_enqueue_style( 'photo-sphere-viewer', 'https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.css');
-	wp_enqueue_script( 'slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js');
-	wp_enqueue_style( 'slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css');
+	wp_enqueue_script( 'slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js');
+	wp_enqueue_style( 'slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css');
+	
 }	
 
 add_filter( 'big_image_size_threshold', '__return_false' );
