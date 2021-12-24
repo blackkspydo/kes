@@ -54,8 +54,8 @@ if (is_front_page()) {
 			<h2 class="h2">From the news</h2>
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/divider-2.svg" alt="">
 		</div>
-		<div class="events-container">
-			
+		<div class="events-container container">
+		<?php echo do_shortcode("[events]"); ?>
 		</div>
 	</section>
 </main>

@@ -1,4 +1,4 @@
-// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+// This is an rempty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
 $primary: #a52c00;
 $p-color: #727171;
@@ -97,18 +97,18 @@ header {
 
   nav {
     margin: 0 auto;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 1rem;
+    padding-right: 1rem;
     max-width: 1280px;
     display: flex;
     justify-content: space-between;
 
     .nav-container {
       display: flex;
-      gap: 3em;
+      gap: 3rem;
 
       ul.navbar {
-        gap: 1em;
+        gap: 1rem;
         padding: 0;
         margin: 0 auto;
 
@@ -132,7 +132,7 @@ header {
   #photosphere {
     margin: 0;
     width: 100%;
-    height: 38em;
+    height: 38rem;
     position: absolute;
 
     pointer-events: auto !important;
@@ -150,7 +150,7 @@ header {
       rgba(196, 196, 196, 0) 99.26%
     );
     pointer-events: none;
-    height: 38em;
+    height: 38rem;
     width: 100%;
     position: relative;
     z-index: 2;
@@ -158,37 +158,37 @@ header {
     align-items: center;
 
     .divider {
-      margin-bottom: 2.5em;
+      margin-bottom: 2.5rem;
     }
 
     .h1 {
       font-family: caslon-regular;
-      font-size: 3.6em;
+      font-size: 3.6rem;
       color: #ffffff;
-      margin: 0 0 0 1em;
+      margin: 0 0 0 1rem;
       padding: 0;
     }
 
     .h1-bold {
       font-family: caslon-bold;
-      font-size: 4em;
+      font-size: 4rem;
     }
   }
 }
 
 .testimonial-slider {
-  max-width: 17em;
+  max-width: 17rem;
 }
 
 .img-container {
   max-width: 100px;
 
   max-height: 100px;
-  margin: 1em auto;
-  margin-bottom: 0.5em;
+  margin: 1rem auto;
+  margin-bottom: 0.5rem;
 
   img {
-    border-radius: 10em;
+    border-radius: 10rem;
     object-fit: cover;
     height: 100px;
     width: 100px;
@@ -196,7 +196,7 @@ header {
 }
 
 .testimonial {
-  max-width: 17em;
+  max-width: 17rem;
 }
 
 .slick-dots {
@@ -205,7 +205,8 @@ header {
   list-style: none;
   display: flex;
   justify-content: center;
-//   margin-top: 1em;
+  margin-top: -2rem;
+  //   margin-top: 1rem;
 }
 
 .slick-dots button::after {
@@ -236,55 +237,55 @@ header {
   text-align: center;
 }
 .why-kes {
-  margin-top: 1.4em;
+  margin-top: 1.4rem;
 }
 .testimonial-text {
-  padding: 0.5em;
-  text-align: left;
-  font-size: 0.8em;
-  max-width: 16.5em;
+  padding: 1rem;
+  //   text-align: left;
+  font-size: 0.8rem;
+  max-width: 15.2rem;
   margin: 0 auto;
   font-family: $font-family-apercu-regular;
-  line-height: 1em;
-  letter-spacing: 0.04em;
-  margin-top: 1.6em;
+  line-height: 1rem;
+  letter-spacing: 0.04rem;
+  margin-top: 1rem;
 }
 
 .testimonial-container {
-  max-width: 17em;
+  max-width: 17rem;
   background: #555555;
   color: #f2f2f2;
-  border-radius: 0 2em 0 6.3em;
-  margin-bottom: 10em;
-  margin-top: -2em;
+  border-radius: 0 2rem 0 6.3rem;
+  margin-bottom: 10rem;
+  margin-top: -2rem;
   z-index: 33;
   position: relative;
-  height: 26.5em;
+  height: 26.5rem;
 }
 
 .testimonial-title {
-  height: 3.8em;
+  height: 3.8rem;
   background: $primary;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 0 2em 0 0;
+  border-radius: 0 2rem 0 0;
   span {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     letter-spacing: 3px;
   }
 }
 
 .name {
-  font-size: 0.8em;
+  font-size: 0.8rem;
   font-family: $font-family-apercu-bold;
-  letter-spacing: 0.105em;
+  letter-spacing: 0.105rem;
   text-transform: capitalize;
 }
 
 .testimonial-author-about {
-  font-size: 0.43em;
+  font-size: 0.43rem;
   text-align: left;
   font-family: $font-family-apercu-mono;
 }
@@ -296,20 +297,20 @@ header {
 
 #quotes-icon {
   position: absolute;
-  margin: 9.5em 1em;
+  margin: 9.5rem 1rem;
 }
 
 .container.sub-hero {
   display: flex;
   flex-direction: row;
-  grid-gap: 2.8em;
+  grid-gap: 2.8rem;
   text-align: justify;
 }
 
 .why-kes {
   h3 {
     font-family: $font-family-apercu-bold;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #868686;
     span {
       color: $primary;
@@ -318,10 +319,12 @@ header {
 
   .description {
     font-family: $font-family-apercu-regular;
-    font-size: 1.13em;
-    line-height: 1.4em;
-    letter-spacing: 0.03em;
+    font-size: 1.13rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.03rem;
     color: $p-color;
+    max-height: 336px;
+    overflow-y: clip;
   }
 }
 
@@ -352,4 +355,99 @@ header {
 .slick-dots li.slick-active + li:nth-last-child(2),
 .slick-dots li.slick-active + li:nth-last-child(1) {
   display: block;
+}
+
+.news-and-events-container {
+  .heading {
+    margin: 0 auto;
+    width: fit-content;
+  }
+  .events-container {
+    display: flex;
+    grid-gap: 2.7rem;
+    flex-wrap: wrap;
+  }
+  .event {
+    max-width: 20rem;
+    display: flex;
+    margin: 0 auto;
+    align-items: flex-end;
+  }
+
+  background: #f1f1f1;
+  padding: 3rem 0;
+  margin-bottom: 10rem;
+
+  .event-details {
+    background: #fff;
+    max-width: 16.5rem;
+    padding: 0.8rem;
+    min-height: 8.3rem;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  }
+
+  .event-date-day {
+    height: 54px;
+    background: $primary;
+    text-align: center;
+
+    width: 54px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: caslon-bold;
+    .month {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+  }
+  .event-details-title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    line-height: 0.87rem;
+    font-family: $font-family-apercu-regular;
+    margin-bottom: 0.4rem;
+    margin-top: 0.2rem;
+  }
+  .event-description {
+    font-family: $font-family-apercu-regular;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    letter-spacing: 0.015rem;
+    font-size: 0.75rem;
+    margin: 0;
+    color: $p-color;
+  }
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  .detail {
+    height: 54px;
+    width: 54px;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    justify-content: center;
+    color: #384D76;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    span{
+        font-family: $font-family-apercu-regular;
+    }
+}
+.detail::before {
+    content: "\f138";
+    font-family: 'FontAwesome';
+}
+#event-btn{
+    font-family: $font-family-apercu-regular;
+    font-size: 10px;
+    
+}
 }

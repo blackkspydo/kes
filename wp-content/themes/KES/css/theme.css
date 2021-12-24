@@ -15050,18 +15050,18 @@ header {
 }
 header nav {
   margin: 0 auto;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 1rem;
+  padding-right: 1rem;
   max-width: 1280px;
   display: flex;
   justify-content: space-between;
 }
 header nav .nav-container {
   display: flex;
-  gap: 3em;
+  gap: 3rem;
 }
 header nav .nav-container ul.navbar {
-  gap: 1em;
+  gap: 1rem;
   padding: 0;
   margin: 0 auto;
 }
@@ -15080,7 +15080,7 @@ header nav .nav-container ul.navbar .nav-item a {
 .hero #photosphere {
   margin: 0;
   width: 100%;
-  height: 38em;
+  height: 38rem;
   position: absolute;
   pointer-events: auto !important;
 }
@@ -15091,7 +15091,7 @@ header nav .nav-container ul.navbar .nav-item a {
 .hero .overlay-photosphere {
   background: linear-gradient(90.09deg, rgba(0, 33, 71, 0.53) 24.92%, rgba(196, 196, 196, 0) 99.26%);
   pointer-events: none;
-  height: 38em;
+  height: 38rem;
   width: 100%;
   position: relative;
   z-index: 2;
@@ -15099,32 +15099,32 @@ header nav .nav-container ul.navbar .nav-item a {
   align-items: center;
 }
 .hero .overlay-photosphere .divider {
-  margin-bottom: 2.5em;
+  margin-bottom: 2.5rem;
 }
 .hero .overlay-photosphere .h1 {
   font-family: caslon-regular;
-  font-size: 3.6em;
+  font-size: 3.6rem;
   color: #ffffff;
-  margin: 0 0 0 1em;
+  margin: 0 0 0 1rem;
   padding: 0;
 }
 .hero .overlay-photosphere .h1-bold {
   font-family: caslon-bold;
-  font-size: 4em;
+  font-size: 4rem;
 }
 
 .testimonial-slider {
-  max-width: 17em;
+  max-width: 17rem;
 }
 
 .img-container {
   max-width: 100px;
   max-height: 100px;
-  margin: 1em auto;
-  margin-bottom: 0.5em;
+  margin: 1rem auto;
+  margin-bottom: 0.5rem;
 }
 .img-container img {
-  border-radius: 10em;
+  border-radius: 10rem;
   -o-object-fit: cover;
   object-fit: cover;
   height: 100px;
@@ -15132,7 +15132,7 @@ header nav .nav-container ul.navbar .nav-item a {
 }
 
 .testimonial {
-  max-width: 17em;
+  max-width: 17rem;
 }
 
 .slick-dots {
@@ -15141,6 +15141,7 @@ header nav .nav-container ul.navbar .nav-item a {
   list-style: none;
   display: flex;
   justify-content: center;
+  margin-top: -2rem;
 }
 
 .slick-dots button::after {
@@ -15172,56 +15173,55 @@ header nav .nav-container ul.navbar .nav-item a {
 }
 
 .why-kes {
-  margin-top: 1.4em;
+  margin-top: 1.4rem;
 }
 
 .testimonial-text {
-  padding: 0.5em;
-  text-align: left;
-  font-size: 0.8em;
-  max-width: 16.5em;
+  padding: 1rem;
+  font-size: 0.8rem;
+  max-width: 15.2rem;
   margin: 0 auto;
   font-family: "apercu-regular";
-  line-height: 1em;
-  letter-spacing: 0.04em;
-  margin-top: 1.6em;
+  line-height: 1rem;
+  letter-spacing: 0.04rem;
+  margin-top: 1rem;
 }
 
 .testimonial-container {
-  max-width: 17em;
+  max-width: 17rem;
   background: #555555;
   color: #f2f2f2;
-  border-radius: 0 2em 0 6.3em;
-  margin-bottom: 10em;
-  margin-top: -2em;
+  border-radius: 0 2rem 0 6.3rem;
+  margin-bottom: 10rem;
+  margin-top: -2rem;
   z-index: 33;
   position: relative;
-  height: 26.5em;
+  height: 26.5rem;
 }
 
 .testimonial-title {
-  height: 3.8em;
+  height: 3.8rem;
   background: #a52c00;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 0 2em 0 0;
+  border-radius: 0 2rem 0 0;
 }
 .testimonial-title span {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   letter-spacing: 3px;
 }
 
 .name {
-  font-size: 0.8em;
+  font-size: 0.8rem;
   font-family: "apercu-bold";
-  letter-spacing: 0.105em;
+  letter-spacing: 0.105rem;
   text-transform: capitalize;
 }
 
 .testimonial-author-about {
-  font-size: 0.43em;
+  font-size: 0.43rem;
   text-align: left;
   font-family: "apercu-mono";
 }
@@ -15235,19 +15235,19 @@ header nav .nav-container ul.navbar .nav-item a {
 
 #quotes-icon {
   position: absolute;
-  margin: 9.5em 1em;
+  margin: 9.5rem 1rem;
 }
 
 .container.sub-hero {
   display: flex;
   flex-direction: row;
-  grid-gap: 2.8em;
+  grid-gap: 2.8rem;
   text-align: justify;
 }
 
 .why-kes h3 {
   font-family: "apercu-bold";
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: #868686;
 }
 .why-kes h3 span {
@@ -15255,10 +15255,12 @@ header nav .nav-container ul.navbar .nav-item a {
 }
 .why-kes .description {
   font-family: "apercu-regular";
-  font-size: 1.13em;
-  line-height: 1.4em;
-  letter-spacing: 0.03em;
+  font-size: 1.13rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.03rem;
   color: #727171;
+  max-height: 336px;
+  overflow-y: clip;
 }
 
 .slick-dots li {
@@ -15290,6 +15292,98 @@ header nav .nav-container ul.navbar .nav-item a {
 .slick-dots li.slick-active + li:nth-last-child(2),
 .slick-dots li.slick-active + li:nth-last-child(1) {
   display: block;
+}
+
+.news-and-events-container {
+  background: #f1f1f1;
+  padding: 3rem 0;
+  margin-bottom: 10rem;
+}
+.news-and-events-container .heading {
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.news-and-events-container .events-container {
+  display: flex;
+  grid-gap: 2.7rem;
+  flex-wrap: wrap;
+}
+.news-and-events-container .event {
+  max-width: 20rem;
+  display: flex;
+  margin: 0 auto;
+  align-items: flex-end;
+}
+.news-and-events-container .event-details {
+  background: #fff;
+  max-width: 16.5rem;
+  padding: 0.8rem;
+  min-height: 8.3rem;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+}
+.news-and-events-container .event-date-day {
+  height: 54px;
+  background: #a52c00;
+  text-align: center;
+  width: 54px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: caslon-bold;
+}
+.news-and-events-container .event-date-day .month {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.news-and-events-container .event-details-title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  line-height: 0.87rem;
+  font-family: "apercu-regular";
+  margin-bottom: 0.4rem;
+  margin-top: 0.2rem;
+}
+.news-and-events-container .event-description {
+  font-family: "apercu-regular";
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.015rem;
+  font-size: 0.75rem;
+  margin: 0;
+  color: #727171;
+}
+.news-and-events-container p {
+  padding: 0;
+  margin: 0;
+}
+.news-and-events-container .detail {
+  height: 54px;
+  width: 54px;
+  background: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  justify-content: center;
+  color: #384D76;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+}
+.news-and-events-container .detail span {
+  font-family: "apercu-regular";
+}
+.news-and-events-container .detail::before {
+  content: "\f138";
+  font-family: "FontAwesome";
+}
+.news-and-events-container #event-btn {
+  font-family: "apercu-regular";
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=theme.css.map */

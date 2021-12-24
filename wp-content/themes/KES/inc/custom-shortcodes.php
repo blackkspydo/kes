@@ -1,17 +1,30 @@
-<?php 
+<?php
 // configure a shortcode for content-testimonial-slider.php
 
-function testimonial_slider() {
+function testimonial_slider()
+{
 
-    ob_start();
-  
-    get_template_part( 'template-parts/content', 'testimonial-slider' );
-  
-    return ob_get_clean();
-  }
-  
-  function register_shortcodes(){
-    add_shortcode('testimonial-slider', 'testimonial_slider');
-  }
+  ob_start();
 
-  add_action( 'init', 'register_shortcodes');
+  get_template_part('template-parts/content', 'testimonial-slider');
+
+  return ob_get_clean();
+}
+
+function events()
+{
+
+  ob_start();
+
+  get_template_part('template-parts/content', 'events');
+
+  return ob_get_clean();
+}
+
+function register_shortcodes()
+{
+  add_shortcode('testimonial-slider', 'testimonial_slider');
+  add_shortcode('events', 'events');
+}
+
+add_action('init', 'register_shortcodes');
